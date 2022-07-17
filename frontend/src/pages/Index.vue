@@ -322,7 +322,7 @@
                 <div class="player-controls" data-testid="player-controls" dir="ltr" aria-label="播放器控制区域">
                   <div class="player-controls__buttons player-controls__buttons--new-icons">
                     <div class="player-controls__left">
-                      <button class="KVKoQ3u4JpKTvSSFtd6J" disabled="" role="switch" aria-checked="false"
+                      <button class="KVKoQ3u4JpKTvSSFtd6J" disabled role="switch" aria-checked="false"
                               aria-label="开启随机播放" data-testid="control-button-shuffle" style="--button-size:32px;">
                         <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 EQkJl">
                           <path
@@ -331,7 +331,7 @@
                               d="M7.5 10.723l.98-1.167.957 1.14a2.25 2.25 0 001.724.804h1.947l-1.017-1.018a.75.75 0 111.06-1.06l2.829 2.828-2.829 2.828a.75.75 0 11-1.06-1.06L13.109 13H11.16a3.75 3.75 0 01-2.873-1.34l-.787-.938z"></path>
                         </svg>
                       </button>
-                      <button class="fn72ari9aEmKo4JcwteT" disabled="" aria-label="上一首"
+                      <button class="fn72ari9aEmKo4JcwteT" disabled aria-label="上一首"
                               data-testid="control-button-skip-back" style="--button-size:32px;">
                         <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 EQkJl">
                           <path
@@ -354,7 +354,7 @@
                               d="M12.7 1a.7.7 0 00-.7.7v5.15L2.05 1.107A.7.7 0 001 1.712v12.575a.7.7 0 001.05.607L12 9.149V14.3a.7.7 0 00.7.7h1.6a.7.7 0 00.7-.7V1.7a.7.7 0 00-.7-.7h-1.6z"></path>
                         </svg>
                       </button>
-                      <button class="Vz6yjzttS0YlLcwrkoUR" disabled="" role="checkbox" aria-checked="false"
+                      <button class="Vz6yjzttS0YlLcwrkoUR" disabled role="checkbox" aria-checked="false"
                               aria-label="关闭循环播放" data-testid="control-button-repeat" style="--button-size:32px;">
                         <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 EQkJl">
                           <path
