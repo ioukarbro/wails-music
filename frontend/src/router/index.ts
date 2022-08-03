@@ -2,40 +2,28 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 
 const routes = [
     {
-        path: '/search',
-        name: 'search',
-        component: () => import('@/pages/Search.vue'),
+        path: '/',
+        redirect: '/main/index'
     },
     {
-        path: '/home',
-        name: 'home',
-        component: () => import('@/pages/Home.vue')
+        path: '/main',
+        name: 'index',
+        component: () => import('@/pages/Main.vue'),
+        children: [
+            {
+                path: 'index',
+                component: () => import('@/pages/Index.vue')
+            },
+            {
+                path: 'list',
+                component: () => import('@/pages/List.vue')
+            },
+            {
+                path: 'search',
+                component: () => import('@/pages/Search.vue')
+            }
+        ]
     },
-    {
-        path: '/library',
-        name: 'library',
-        component: () => import('@/pages/Library.vue')
-    },
-    {
-        path: '/createPlaylist',
-        name: 'createPlaylist',
-        component: () => import('@/pages/CreatePlaylist.vue')
-    },
-    {
-        path: '/likedSongs',
-        name: 'likedSongs',
-        component: () => import('@/pages/LikedSongs.vue')
-    },
-    {
-        path: '/setting',
-        name: 'setting',
-        component: () => import('@/pages/Setting.vue')
-    },
-    {
-        path: '/account',
-        name: 'account',
-        component: () => import('@/pages/Account.vue')
-    }
 ]
 
 const router = createRouter({

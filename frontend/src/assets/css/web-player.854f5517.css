@@ -5387,13 +5387,11 @@ video::-webkit-media-text-track-display {
     width: calc(100% - var(--subtitles-spacer) * 2) !important
 }
 
-@supports selector(video::-webkit-media-text-track-display
-
-) {
-    video::cue {
-        background-color: transparent
-    }
-}
+/*@supports selector(video::-webkit-media-text-track-display) {*/
+/*    video::cue {*/
+/*        background-color: transparent*/
+/*    }*/
+/*}*/
 
 .fFoN1cMJLIJo0k_vgNyw {
     -webkit-box-orient: vertical;
